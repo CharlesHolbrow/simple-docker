@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+MAINTAINER Charles Holbrow <charlesholbrow@gmail.com>
+
 RUN apt-get update && apt-get install -y \
   sudo \
   git \
